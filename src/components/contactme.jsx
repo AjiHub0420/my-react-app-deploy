@@ -39,7 +39,7 @@ export const ContactMe = () => {
     useEffect(() => {
         const handleScroll = () => {
             const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            const scrollMedsos = document.querySelector('.mymedsos');
+            const scrollMedsos = document.querySelector('.greeting');
 
             if (scrollTop > scrollMedsos.offsetTop) {
                 setShowMedsos(true);
