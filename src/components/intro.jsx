@@ -27,7 +27,7 @@ export const Intro = () => {
             <div className="hero-intro-info">
                 <h3>Siapa Saya?</h3>
                 {showDiv && <motion.img initial={{ x: -100 }} animate={{ x: 0 }} transition={{ type: 'spring', duration: 1, delay: 0.5 }} src="./profile.jpg" alt="" />}
-                {showDiv && <motion.p initial={{ x: -100 }} animate={{ x: 0 }} transition={{ type: 'spring', duration: 1.5, delay: 0.10 }}>Nama saya Achmad Rezky Aji Nugroho, saya adalah mahasiswa Universitas Dian Nuswantoro Semarang, Jurusan Sistem Informasi, ini adalah portofolio sederhana saya yang saya buat menggunakan framework react untuk mendftar sebagai front-end developer</motion.p>}
+                {showDiv && <motion.p initial={{ x: -100 }} animate={{ x: 0 }} transition={{ type: 'spring', duration: 1.5, delay: 0.10 }}>Nama saya Achmad Rezky Aji Nugroho, saya adalah mahasiswa Universitas Dian Nuswantoro Semarang, Jurusan Sistem Informasi, ini adalah portofolio sederhana saya yang saya buat menggunakan framework react untuk mendaftar sebagai front-end developer</motion.p>}
             </div>
         </div>
     )
