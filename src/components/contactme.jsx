@@ -62,7 +62,7 @@ export const ContactMe = () => {
             <div className="mymedsos">
                 <div className="mymedsos-info">
                     <h1>Sosial Media</h1>
-                    {showMedsos && <motion.p variants={contactVarian} initial='initial' animate='animate' transition='transition' >Anda dapat mencari tentang saya via akun-akun media saya, jika anda tertarik</motion.p>}
+                    {showMedsos && <motion.p variants={contactVarian} initial='initial' animate='animate' transition='transition' >Anda dapat mencari tahu tentang saya via akun-akun media sosial saya, jika anda tertarik</motion.p>}
                     {showMedsos && <motion.ul variants={contactVarian} initial='initial' animate='animate' transition='transition'>
                         <motion.li variants={ItemVarian} initial='initial' animate='animate' transition={{ delay: 0.5 }}><a href="https://twitter.com/AchmadRezk89958?t=_tCBfEorlk9OHOmm5rhKeQ&s=09"><motion.img whileHover={{ scale: 1.1, transition: { duration: 0.3, repeat: 10 } }} src="./twittericon.svg" alt="" /></a></motion.li>
                         <motion.li variants={ItemVarian} initial='initial' animate='animate' transition={{ delay: 0.6 }}><a href="https://instagram.com/aji_nocks?igshid?=MzNINGNkZWQ4Mg=="><motion.img whileHover={{ scale: 1.1, transition: { duration: 0.3, repeat: 10 } }} src="./instagramicon.svg" alt="" /></a></motion.li>
@@ -74,7 +74,7 @@ export const ContactMe = () => {
             </div>
             <div className="contact-me">
                 <h1>Anda Tertarik?</h1>
-                <p>Selain via Sosial anda juga dapat menghubungi saya via What's Up saya</p>
+                <p>Selain via media Sosial anda juga dapat menghubungi saya via What's Up saya</p>
                 {showMedsos && <motion.button onClick={event => window.location.href = 'https://wa.me/6281325817289'} variants={contactVarian} whileHover='hover'>Contact Me</motion.button>}
 
             </div>
